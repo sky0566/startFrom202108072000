@@ -1,4 +1,4 @@
-public class InsertSort {
+public class Code3_InsertSort {
 
     public static void insertSort(int[] arr){
         if (null == arr || arr.length<2) return;

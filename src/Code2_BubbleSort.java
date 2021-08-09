@@ -1,4 +1,4 @@
-public class BubbleSort {
+public class Code2_BubbleSort {
 
     public static void bubbleSort(int[] arr){
         if (null == arr || arr.length<2) return;

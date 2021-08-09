@@ -1,4 +1,4 @@
-public class EvenTimesOddTimes {
+public class Code5_EvenTimesOddTimes {
 
     public static void printOddTimesNum2(int[] arr){
         int eor = 0, onlyOne = 0;

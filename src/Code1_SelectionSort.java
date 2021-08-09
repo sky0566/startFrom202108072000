@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class SelectionSort {
+public class Code1_SelectionSort {
 
     public static void selectionSort(int[] arr){
         if(arr == null || arr.length<2) return;

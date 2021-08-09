@@ -1,4 +1,4 @@
-public class FirstTarget {
+public class Code4_FirstTarget {
 
     public static int firstTarget(int[] arr, int target){
         if (target<arr[0] || target>arr[arr.length-1]) return -1;
@@ -7,7 +7,7 @@ public class FirstTarget {
         while(left<right){
             int mid = left + ((right - left)>>1);
             if (arr[mid] >= target){
-                right = mid;
+                right = mid -1;
             }else{
                 left = mid +1;
             }
